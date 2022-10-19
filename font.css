@@ -1,0 +1,19 @@
+* {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.bold{
+    font-weight: 700 !important;
+}
+
+.light{
+    font-weight: 400 !important;
+}
+
+.big{
+    font-size: 40px !important;
+}
+
+p{
+    font-weight: 400;
+}

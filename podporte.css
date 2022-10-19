@@ -1,0 +1,45 @@
+.podporte-chcem{
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    color: #3597ff !important;
+}
+
+.podporte-icon{
+    color:#3597ff !important;
+    margin-left: 10px;
+} 
+
+.podporte{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.podporte-img{
+    max-width: 100%;
+    
+}
+
+.podporte-right{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.podporte-left{
+    max-width: 30%;
+}
+
+.podporte-heading{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.podporte-text{
+    color: #566b8d;
+    font-size: 18px;
+    font-weight: 500;
+} 

@@ -1,0 +1,20 @@
+.openlab {
+  font-size: 40px !important;
+}
+
+.preco {
+  font-size: 40px !important;
+  font-weight: 300 !important;
+}
+
+.why {
+  flex-direction: column;
+  max-width: 1000px;
+  width: 100%;
+  overflow: hidden;
+}
+.w-info {
+  text-align: center;
+  color: #566b8d;
+  font-size: 16px;
+}

@@ -1,0 +1,17 @@
+.who h1{
+    margin: 0px;
+    margin-right: 60px !important;
+    
+}
+
+.who{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wjo-img{
+    margin: 30px;
+}
