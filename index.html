@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="vizia.css" />
     <link rel="stylesheet" href="main-content.css" />
     <link href="https://css.gg/arrow-long-right.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="discord flex align justify">
@@ -34,7 +35,7 @@
         Ak máš záujem študovať spolu s nami, sme tu pre teba…
       </p>
 
-      <button class="dspacer dbutton">
+      <button class="dspacer dbutton flex align justify">
         Openlab community
         <img
           src="	https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/discord.svg"
@@ -44,14 +45,21 @@
       </button>
     </div>
     <div class="navbar flex align">
-      <div class="left">
+      <div class="left align flex">
         <img
           src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/openlab-logo.svg"
           alt=""
           class="logo"
         />
         <a class="nav-link" href="">Úvod</a>
-        <a class="nav-link" href="">Openlab</a>
+        <div class="dropdown">
+          <span class="nav-link">Openlab</span>
+          <div class="dropdown-content">
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+          </div>
+        </div>
         <a class="nav-link" href="">Pre učiteľov</a>
         <a class="nav-link" href="">Partneri</a>
         <a class="nav-link" href="">Moderná škola</a>
@@ -61,9 +69,9 @@
       </div>
     </div>
 
-    <div class="fff">
-      <div class="a ccc">
-        <div class="neviem">
+    <div class="bg flex">
+      <div class="a text-div flex align justify">
+        <div class="wrapper">
           <h1 class="main-nadpis w big light">
             Inštitút stredoškolského odborného vzdelávania
             <span class="big bold">zameraný na IT & AI</span>
@@ -74,7 +82,7 @@
           </p>
         </div>
       </div>
-      <div class="a ddd">
+      <div class="a img flex">
         <img
           class="glasnak"
           src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png"
@@ -159,54 +167,53 @@
         <div class="row">
           <div class="k b1">
             <div class="cards-margin">
-              <p class="vizia-number t1">11</p>
-              <p class="vizia-card-text tt1">tried</p>
+              <p class="vizia-number flex t1">11</p>
+              <p class="vizia-card-text flex tt1">tried</p>
             </div>
           </div>
           <div class="k b2">
             <div class="cards-margin">
-              <p class="vizia-number t2">222</p>
-              <p class="vizia-card-text tt2">študentov</p>
+              <p class="vizia-number flex t2">222</p>
+              <p class="vizia-card-text flex tt2">študentov</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="k b3">
             <div class="cards-margin">
-              <p class="vizia-number t3">14</p>
-              <p class="vizia-card-text tt3">labmastrov</p>
+              <p class="vizia-number flex t3">14</p>
+              <p class="vizia-card-text flex tt3">labmastrov</p>
             </div>
           </div>
           <div class="k b4">
             <div class="cards-margin">
-              <p class="vizia-number t4">2</p>
-              <p class="vizia-card-text tt4">školy</p>
+              <p class="vizia-number flex t4">2</p>
+              <p class="vizia-card-text flex tt4">školy</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="where">
-      <div class="where-row">
-        <div class="where-col">
-          <h4 class="light big">
+    <div class="where flex align justify">
+      <div class="where-row wh flex">
+        <div class="where-col flex align">
+          <h4 class="wh4 light big">
             V akých laboch
             <br />
             <span class="big bold">možeš študovať? </span>
           </h4>
         </div>
-        <div class="where-col text card">
+        <div class="where-col text flex align justify card flex">
           <h3>HybridLab</h3>
           <p class="where-font">
             Študenti sa učia vyvíjať hybridné aplikácie v HTML, PHP, CSS,
             JavaScript, Ionicu, Vue a OctoberCMS.
           </p>
-          <div class="icon">
+          <div class="icon flex">
             <i class="gg-arrow-long-right"></i>
           </div>
         </div>
-        <div class="where-col text card">
+        <div class="where-col text card flex align justify">
           <h3>GamesLab</h3>
           <p class="where-font">
             Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D
@@ -217,7 +224,7 @@
             <i class="gg-arrow-long-right"></i>
           </div>
         </div>
-        <div class="where-col text card">
+        <div class="where-col text flex align justify card">
           <h3>AppsLab</h3>
           <p class="where-font">
             Študenti sa učia vyvíjať mobilné aplikácie v C# a Xamarin.forms a
@@ -230,16 +237,18 @@
       </div>
     </div>
 
-    <div class="schools">
-      <h3 class="big light">Nachádzame sa <span class="big bold">na dvoch školách</span></h3>
-      <div class="school-cards">
+    <div class="schools flex align justify">
+      <h3 class="big light">
+        Nachádzame sa <span class="big bold">na dvoch školách</span>
+      </h3>
+      <div class="school-cards flex align justify">
         <div class="schools-margin-right">
           <img
             src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/school1.png"
             class="img-schools"
             alt=""
           />
-          <div class="school-icon">
+          <div class="school-icon flex">
             <img
               src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/place.svg"
               class="school img"
@@ -248,7 +257,7 @@
             <p class="place">Hálova 16, Bratislava</p>
           </div>
           <p class="skola">Stredná Priemyselná Škola</p>
-          <div class="school-card-content">
+          <div class="school-card-content flex">
             <p class="skola">Informačných Technológií</p>
             <p class="link">www.spsknm.sk</p>
           </div>
@@ -277,9 +286,12 @@
       </div>
     </div>
 
-    <div class="study">
+    <div class="study flex">
       <div class="study-content">
-        <h3 class="big light">Chceš ísť študovať odbor <span class="big bold">kompletne zameraný na IT?</span></h3>
+        <h3 class="big light">
+          Chceš ísť študovať odbor
+          <span class="big bold">kompletne zameraný na IT?</span>
+        </h3>
         <h4>Programovanie digitálnych technológií</h4>
         <p>
           Čaká ťa tvorba aplikácií a hier, inovatívne myslenie, práca na
@@ -295,10 +307,10 @@
         alt=""
       />
     </div>
-    <div class="join">
-      <h3 class="join-title">Pridajte sa k nám</h3>
-      <h3 class="join-heading">My všetci sme OpenLab…</h3>
-      <div class="join-cards">
+    <div class="join flex justify">
+      <h3 class="join-title flex justify">Pridajte sa k nám</h3>
+      <h3 class="join-heading flex justify">My všetci sme OpenLab…</h3>
+      <div class="join-cards flex">
         <div class="where-col text card">
           <h3>Labmastri</h3>
           <p class="where-font">
@@ -342,7 +354,7 @@
       </div>
     </div>
     <h1 class="spoznaj-margin light">Spoznaj <span class="bold">nás</span></h1>
-    <div class="spoznaj">
+    <div class="spoznaj flex justify">
       <div class="spoznaj-cards">
         <img
           src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/grigor-ayrumyan.jpg"
@@ -384,7 +396,7 @@
         <p class="work">Tech Garant pre GamesLab</p>
       </div>
     </div>
-    <div class="podporte">
+    <div class="podporte flex justify align">
       <div class="podporte-left">
         <img
           src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/people.png"
@@ -392,24 +404,28 @@
           alt=""
         />
       </div>
-      <div class="podporte-right">
-        <h3 class="podporte-heading light">Podporte <span class="bold">nás</span></h3>
+      <div class="podporte-right flex">
+        <h3 class="podporte-heading light">
+          Podporte <span class="bold">nás</span>
+        </h3>
         <p class="podporte-text">
           OpenLab postupne rozširujeme ako neziskový vzdelávací projekt s cieľom
           otvoriť OpenLab-y zamerané na rôzne IT technológie na čo najväčší
           počet škôl vo všetkých slovenských regiónoch. Veríme, že OpenLab bude
           natoľko úspešný, že sa stane štandardom vzdelávania na Slovensku!
         </p>
-        <div class="podporte-chcem">
+        <div class="podporte-chcem flex align">
           <p>Chcem podporiť</p>
           <i class="gg-arrow-long-right podporte-icon"></i>
         </div>
       </div>
     </div>
 
-    <h1 class="vynimocny-h1 light">Čím sme <span class="bold">výnimoční?</span></h1>
-    <div class="vynimocny">
-      <div class="vynimocny-row">
+    <h1 class="vynimocny-h1 light">
+      Čím sme <span class="bold">výnimoční?</span>
+    </h1>
+    <div class="vynimocny flex justify align">
+      <div class="vynimocny-row flex justify align">
         <div class="col-vynimocny">
           <img
             src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/special1.svg"
@@ -486,7 +502,7 @@
         </div>
       </div>
     </div>
-    <div class="who">
+    <div class="who flex align justify">
       <h1 class="light">
         Kto stojí <br />
         <span class="bold">za Openlabom?</span>
@@ -531,8 +547,8 @@
     </div>
 
     <div class="podcast-container">
-      <div class="podcast-row">
-        <div class="podcast-col-left">
+      <div class="podcast-row flex">
+        <div class="podcast-col-left flex">
           <h1 class="light">
             Nie je moderná škola <br />
             <span class="bold">ako moderná škola</span>
@@ -566,7 +582,7 @@
           </div>
           <button>Moderná škola</button>
         </div>
-        <div class="podcast-col-right">
+        <div class="podcast-col-right flex justify align">
           <img
             src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/modern.png"
             class="podcast-main-img"
@@ -591,7 +607,9 @@
     <br />
     <br />
     <div class="labmastri-card">
-      <p class="heading light">Labmastri <span class="bold">v OpenLabe</span></p>
+      <p class="heading light">
+        Labmastri <span class="bold">v OpenLabe</span>
+      </p>
       <hr class="labmastri-hr" />
       <h3 class="content">
         V OpenLabe sa okrem technologických vedomostí a zručností snažíme
@@ -613,69 +631,52 @@
         alt=""
       />
     </div>
-    <br><br><br><br><br><br><br><br>
+    <br /><br /><br /><br /><br /><br /><br /><br />
     <div class="projects-heading">
-        <h4 class="light">Pozrite si <span class="bold">študentské projekty</span></h4>
-        <p>Stredoškoláci v OpenLaboch pracujú na reálnych projektoch v spolupráci s firmami pričom získavajú praktické zručnosti a osvojujú si prístup, ktorým neskôr posunú svet technológií a celú spoločnosť vpred.</p>
+      <h4 class="light">
+        Pozrite si <span class="bold">študentské projekty</span>
+      </h4>
+      <p>
+        Stredoškoláci v OpenLaboch pracujú na reálnych projektoch v spolupráci s
+        firmami pričom získavajú praktické zručnosti a osvojujú si prístup,
+        ktorým neskôr posunú svet technológií a celú spoločnosť vpred.
+      </p>
     </div>
 
-    <div class="projects">
-        <div class="projects-text">
-            
-            <h4>Projekty študentov <span class="bold">v OpenLabe</span></h4>
-            <hr class="projects-hr">    
-            <h3 class="light">Študentský projekt Renmo z AppsLabu</h3>
-            <p class="light">
-                Renmo je softvérová aplikácia, ktorá slúži ako rezervačný systém. Užívateľ si vie prostredníctvom systému ľahko a rýchlo zarezervovať rôzne služby, napr. objednať sa ku kaderníkovi. V aplikácii si takisto firmy vedia nastaviť detailné informácie o sebe a ponuku svojich služieb. Aplikácia vie uľahčiť prácu aj zamestnancom, ktorí vidia aktívne rezervácie pre daný deň ale aj nasledujúce.
-                Na vývoj študenti použili technológie: MySQL, SpringBoot a Angular.
-            </p>
-            
-        </div>
+    <div class="projects flex">
+      <div class="projects-text">
+        <h4>Projekty študentov <span class="bold">v OpenLabe</span></h4>
+        <hr class="projects-hr" />
+        <h3 class="light">Študentský projekt Renmo z AppsLabu</h3>
+        <p class="light">
+          Renmo je softvérová aplikácia, ktorá slúži ako rezervačný systém.
+          Užívateľ si vie prostredníctvom systému ľahko a rýchlo zarezervovať
+          rôzne služby, napr. objednať sa ku kaderníkovi. V aplikácii si takisto
+          firmy vedia nastaviť detailné informácie o sebe a ponuku svojich
+          služieb. Aplikácia vie uľahčiť prácu aj zamestnancom, ktorí vidia
+          aktívne rezervácie pre daný deň ale aj nasledujúce. Na vývoj študenti
+          použili technológie: MySQL, SpringBoot a Angular.
+        </p>
+      </div>
 
-        <div class="projects-img">
-            <img src="https://img.youtube.com/vi/Qg30AVAGo5Y/maxresdefault.jpg" 
-            class="project-img"
-            alt="">
-        </div>
+      <div class="projects-img">
+        <img
+          src="https://img.youtube.com/vi/Qg30AVAGo5Y/maxresdefault.jpg"
+          class="project-img"
+          alt=""
+        />
+      </div>
+
+      
     </div>
 
-
-
-
-
-
-
-
-<br><br><br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <br /><br /><br /><br />
 
     <div class="thanks">
-      <h5 class="light">Ďakujeme za <span class="bold">podporu v roku 2021!</span></h5>
-      <div class="thanks-imgs">
+      <h5 class="light">
+        Ďakujeme za <span class="bold">podporu v roku 2021!</span>
+      </h5>
+      <div class="thanks-imgs flex align">
         <img
           src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/support1.svg"
           class="thanks-img"
@@ -731,7 +732,7 @@
       </div>
     </div>
 
-    <div class="newsletter">
+    <div class="newsletter flex align">
       <div class="left">
         <p>
           Prihláste sa do nášho newslettra a budete mať
@@ -740,11 +741,13 @@
         </p>
       </div>
       <div class="right">
-        <input type="text" placeholder="Zadajte svoj e-mail" />
+        <input type="text" placeholder="Zadajte svoj e-mail">
+        <i style="font-size:15px" class="fa send">&#xf1d9;</i> 
+    </input>
       </div>
     </div>
 
-    <div class="footer">
+    <div class="footer flex">
       <div class="footer-left flexbox">
         <div class="col-left footer-spacing">
           <img

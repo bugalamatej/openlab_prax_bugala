@@ -9,7 +9,6 @@ body {
 .discord {
   max-width: 700px;
   width: 100%;
-  justify-content: center;
   margin-bottom: 10px;
 }
 
@@ -27,12 +26,8 @@ body {
   width: 100%;
 }
 
-.left {
-  display: flex;
-  align-items: center;
-}
-
 .nav-link {
+  cursor: pointer;
   margin: 15px;
   text-decoration: none;
   color: black;
@@ -63,9 +58,6 @@ body {
 }
 
 .dbutton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 50px;
   padding: 10px;
   color: #989ca2;
@@ -81,4 +73,32 @@ body {
 
 .dtext {
   font-size: 13px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+   position: absolute;
+    background-color: white;
+    padding: 12px;
+    width: 150px;
+    border-radius: 4px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.dropdown-content p{
+    font-size: 16px !important;
+}
+
+.dropdown-content p:hover{
+    color: #3597ff;
+    cursor: pointer;
+    font-weight: 500 !important;
 }

@@ -4,22 +4,15 @@
 }
 
 .podcast-row{
-    display: flex;
     justify-content: space-between;
 }
 
 .podcast-col-left{
     max-width: 40%;
-    display: flex;
+
     flex-direction: column;
     justify-content: flex-start;
     
-}
-
-.podcast-col-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .podcast-main-img{

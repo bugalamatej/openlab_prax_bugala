@@ -1,8 +1,5 @@
 .schools {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 100px;
 }
 
@@ -13,9 +10,6 @@
 }
 
 .school-cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 75%;
 }
 
@@ -24,28 +18,11 @@
   height: auto;
 }
 
-.school-card-body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-}
-
 .school-icon {
   display: flex;
 }
 
-.school-card {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-}
-
 .school-card-content {
-  display: flex;
   justify-content: space-between;
   max-width: 85%;
 }

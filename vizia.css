@@ -40,7 +40,6 @@
   font-size: 90px;
   margin: 0px;
   font-weight: bold;
-  display: flex;
   justify-content: end;
 }
 
@@ -48,7 +47,6 @@
   font-size: 18px;
   margin-top: 0px;
   margin-bottom: 0px;
-  display: flex;
   justify-content: flex-end;
 }
 

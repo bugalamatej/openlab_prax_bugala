@@ -1,7 +1,5 @@
 .podporte-chcem{
-    display: flex;
     font-weight: 700;
-    align-items: center;
     color: #3597ff !important;
 }
 
@@ -12,9 +10,6 @@
 
 .podporte{
     margin-top: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .podporte-img{
@@ -23,7 +18,6 @@
 }
 
 .podporte-right{
-    display: flex;
     justify-content: flex-start;
     flex-direction: column;
     max-width: 30%;

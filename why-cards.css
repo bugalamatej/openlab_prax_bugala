@@ -21,7 +21,6 @@
 
 .why-cards-direction {
   flex-direction: row;
-  display: flex;
   overflow: hidden;
 }
 

@@ -2,7 +2,8 @@
   cursor: pointer;
 }
 .where-col.card p {
-  max-width: 80%;
+    height: 140px;
+    max-width: 300px
 }
 
 .where-col {
@@ -15,7 +16,7 @@
   display: flex;
   flex-direction: column;
   margin: 10px;
-  padding-bottom: 10px;
+  padding: 20px;
 }
 
 .where-col.icon {
@@ -80,6 +81,10 @@
 .where {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.wh4{
+    width: 400px;
 }
 
 

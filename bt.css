@@ -1,11 +1,11 @@
 .flex {
-  display: flex;
+  display: flex !important;
 }
 
 .align {
-  align-items: center;
+  align-items: center !important;
 }
 
 .justify {
-  justify-content: center;
+  justify-content: center !important;
 }
