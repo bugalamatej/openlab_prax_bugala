@@ -1,10 +1,4 @@
-body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
+
 
 .discord {
   max-width: 700px;
@@ -101,4 +95,8 @@ body {
     color: #3597ff;
     cursor: pointer;
     font-weight: 500 !important;
+}
+
+li::marker{
+   color: white;
 }

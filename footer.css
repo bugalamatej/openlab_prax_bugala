@@ -1,7 +1,7 @@
 .footer{
     display: flex;
     width: 80%;
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
 
 .col-end{
