@@ -1,5 +1,6 @@
 .podcast-container{
     max-width: 80%;
+    margin-bottom: 200px;
     
 }
 
@@ -18,6 +19,7 @@
 .podcast-main-img{
     margin-top: 40px;
     width: 80%;
+    object-fit: cover;
 }
 
 .podcast-row h1{

@@ -99,4 +99,5 @@
 
 li::marker{
    color: white;
+   display: none;
 }
