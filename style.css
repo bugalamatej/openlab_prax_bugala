@@ -14,7 +14,7 @@
 /* fonty */
 
 * {
-    font-family: Arial, sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
 }
 
 .bold {
@@ -33,15 +33,15 @@ p {
     font-weight: 400;
 }
 
-.content{
+.content {
     font-size: 17px;
     line-height: 25px;
 }
 
-.s-content{
+.s-content {
     line-height: 20px !important;
     font-size: 14px !important;
-   
+
 }
 
 /* navbar */
@@ -83,7 +83,7 @@ p {
 }
 
 .navbt {
-    
+
     padding: 15px;
     color: white;
     background-color: #3597ff;
@@ -125,8 +125,8 @@ p {
 
 .dtext {
     font-size: 13px;
-  
-   
+
+
 }
 
 .dropdown {
@@ -217,7 +217,7 @@ p {
     color: #566b8d;
     font-size: 17px;
     line-height: 25px;
-    
+
 
 }
 
@@ -638,21 +638,22 @@ input {
 /* schoolds section*/
 .schools {
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .schools h3 {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 70px;
 }
 
 .school-cards {
-    width: 75%;
+    width: 85%;
 }
 
 .img-schools {
-    width: 89%;
+    width: 95%;
     height: auto;
 }
 
@@ -662,7 +663,10 @@ input {
 
 .school-card-content {
     justify-content: space-between;
-    max-width: 85%;
+    max-width: 95%;
+    display: flex;
+    align-items: flex-end;
+
 }
 
 .school-cards p {
@@ -689,11 +693,11 @@ input {
 }
 
 .schools-margin-right {
-    margin-right: 25px;
+    margin-right: 90px;
 }
 
 .schools-margin-right {
-    margin-left: 25px;
+    margin-left: 90px;
 }
 
 /* spoznaj section */
@@ -730,49 +734,95 @@ input {
 }
 
 /* study section */
-.study {
+.about {
     background-color: #f3f9ff;
     padding-top: 100px;
 }
 
-.study h3 {
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.study h4 {
-    font-size: 30px;
-    margin-top: 40px;
-    font-weight: 500;
-}
-
-.study p {
-    color: #566b8d;
-    font-size: 16px;
-}
-
-.study-content {
-    max-width: 30%;
-    margin-left: 10%;
-}
-
-.sbutton {
-
-    padding: 13px;
-    color: white;
-    background-color: #3597ff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-bottom: 30px;
+.about-main-content {
     display: flex;
+    justify-content: space-around;
 }
 
+.img-about {
+    width: 500px;
 
-.mato {
+    position: inherit;
+}
 
-    max-width: 50%;
+.image-about {
+    display: flex;
+    align-items: flex-end;
+}
 
+.about-content {
+    max-width: 35%;
+}
+
+.about-content p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #566b8d;
+}
+
+.about-content h3 {
+    font-size: 40px;
+}
+
+.about-content span {
+    font-weight: 400;
+}
+
+.about-icon {
+    color: white !important;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-icon-bg {
+    background-color: rgba(53, 151, 255, 0.2) !important;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 3px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-icon-bg:hover {
+    background-color: #3597ff !important;
+}
+
+.about-icons {
+    display: flex;
+
+}
+
+.about-info p {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.about-info span {
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+.img-abt-sm {
+    margin: 0px 10px 10px 0px;
+}
+
+.info-icons {
+    justify-content: space-between;
 }
 
 /* thanks section*/
@@ -835,14 +885,14 @@ input {
 /* vizia section */
 .vizia-text {
     flex-direction: column;
-    max-width: 500px;
-    width: 100%;
+    width: 10000px !important;
+
 }
 
 .vizia {
     justify-content: space-between;
     max-width: 1000px;
-    width: 100%;
+
 }
 
 .nasa-vizia {
@@ -938,7 +988,7 @@ input {
 }
 
 .vizia-cards {
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .vizia-cards {
@@ -1019,9 +1069,9 @@ input {
     font-weight: bold;
 }
 
-.where-col.card:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    color: #3597ff;
+.where-col.card.gg-arrow-long-right:hover {
+
+    color: #3597ff !important;
 }
 
 .where-font {
@@ -1052,4 +1102,3 @@ input {
 .wjo-img {
     margin: 30px;
 }
-
